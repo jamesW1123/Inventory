@@ -52,9 +52,9 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.lblBarcode = new System.Windows.Forms.Label();
             this.txtBarcode = new System.Windows.Forms.TextBox();
+            this.lblBarcode = new System.Windows.Forms.Label();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -327,6 +327,25 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(575, 293);
             this.tableLayoutPanel1.TabIndex = 22;
             // 
+            // txtBarcode
+            // 
+            this.txtBarcode.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtBarcode.Location = new System.Drawing.Point(82, 55);
+            this.txtBarcode.Name = "txtBarcode";
+            this.txtBarcode.Size = new System.Drawing.Size(248, 20);
+            this.txtBarcode.TabIndex = 21;
+            // 
+            // lblBarcode
+            // 
+            this.lblBarcode.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblBarcode.AutoSize = true;
+            this.lblBarcode.Location = new System.Drawing.Point(26, 58);
+            this.lblBarcode.Name = "lblBarcode";
+            this.lblBarcode.Size = new System.Drawing.Size(50, 13);
+            this.lblBarcode.TabIndex = 20;
+            this.lblBarcode.Text = "Barcode:";
+            this.lblBarcode.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 1;
@@ -341,25 +360,6 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel2.Size = new System.Drawing.Size(583, 345);
             this.tableLayoutPanel2.TabIndex = 23;
-            // 
-            // lblBarcode
-            // 
-            this.lblBarcode.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblBarcode.AutoSize = true;
-            this.lblBarcode.Location = new System.Drawing.Point(26, 58);
-            this.lblBarcode.Name = "lblBarcode";
-            this.lblBarcode.Size = new System.Drawing.Size(50, 13);
-            this.lblBarcode.TabIndex = 20;
-            this.lblBarcode.Text = "Barcode:";
-            this.lblBarcode.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // txtBarcode
-            // 
-            this.txtBarcode.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtBarcode.Location = new System.Drawing.Point(82, 55);
-            this.txtBarcode.Name = "txtBarcode";
-            this.txtBarcode.Size = new System.Drawing.Size(248, 20);
-            this.txtBarcode.TabIndex = 21;
             // 
             // frmItemEdit
             // 
